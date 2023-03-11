@@ -28,7 +28,7 @@ Server dependencies:
 - [prisma](https://prisma.io/docs)
 - [dotenv](https://github.com/motdotla/dotenv#readme)
 
-The root folder has [concurrently](https://github.com/open-cli-tools/concurrently) do run
+The root folder has [concurrently](https://github.com/open-cli-tools/concurrently) to easily run both _server_ & _client_ development servers.
 
 ## Getting Started
 
@@ -59,7 +59,7 @@ $ yarn setup
 
 This installs all dependencies in the _**root**, client, and server_ directories, and also runs `prisma generate` in the server directory to generate prisma artifacts.
 
-After installing all the dependencies, you can start both development servers from the project root by running
+After installing all the dependencies, you can start both development servers from the project root by running:
 
 ```bash
 $ yarn dev
