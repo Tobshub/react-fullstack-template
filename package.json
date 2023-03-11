@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "main": ".",
+  "license": "MIT",
+  "scripts": {
+    "dev:client": "cd client && yarn dev",
+    "dev:server": "cd server && yarn dev",
+    "dev": "concurrently \"yarn:dev:*\"",
+    "setup": "yarn; cd client && yarn client:install; cd ../server && yarn server:install; echo \"You're all set up and ready to start coding\nRun yarn dev to start both client/ & server/ development servers\""
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
+
