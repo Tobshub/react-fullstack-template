@@ -43,7 +43,7 @@ Another method of using this template would be using the CLI
 - initialize a new repository
 
 ```bash
-$ git clone Tobshub/react-fullstack-template <folder name>
+$ git clone https://github.com/Tobshub/react-fullstack-template.git <folder name>
 $ cd <folder name>
 $ rm -rf .git
 $ git init
