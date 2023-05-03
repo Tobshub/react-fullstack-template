@@ -1,12 +1,12 @@
 {
   "name": "client",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "client:install": "yarn"
+    "client:install": "pnpm i"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.26.1",
@@ -27,4 +27,3 @@
     "vite-tsconfig-paths": "^4.0.5"
   }
 }
-
